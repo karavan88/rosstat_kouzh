@@ -1,0 +1,37 @@
+.DS_Store
+.claude/
+.codex/
+.agents/
+.env
+.env.*
+.Rhistory
+.Ruserdata
+.Rproj.user/
+.venv/
+__pycache__/
+*.pyc
+*.log
+~$*.docx
+
+# Raw project data (keep folder structure but do not track large files)
+*.sav
+*.dta
+*.rda
+*.RData
+*.parquet
+*.feather
+*.nesstar
+*.xlsx
+
+# renv local cache
+/renv/library/
+/renv/staging/
+/renv/cache/
+/renv/sandbox/
+
+# Keep the project directory structure with .gitkeep placeholders
+!00_documentation/.gitkeep
+!01_input_data/.gitkeep
+!02_scripts/.gitkeep
+!03_outputs/.gitkeep
+!05_manuscripts/.gitkeep
